@@ -1,0 +1,44 @@
+﻿l_english:
+ 
+ #Country Name
+ POM_national_autocracy:0 "Pomeranian National State"
+ POM_national_autocracy_DEF:0 "The Pomeranian National State"
+ POM_national_autocracy_ADJ:0 "Pomeranian"
+ POM_national_syndicalist:0 "Pomeranian National State"
+ POM_national_syndicalist_DEF:0 "The Pomeranian National State"
+ POM_national_syndicalist_ADJ:0 "Pomeranian"
+ POM_national_conservative:0 "Pomeranian National State"
+ POM_national_conservative_DEF:0 "The Pomeranian National State"
+ POM_national_conservative_ADJ:0 "Pomeranian"
+ POM_social_conservative:0 "Pomeranian National State"
+ POM_social_conservative_DEF:0 "The Pomeranian National State"
+ POM_social_conservative_ADJ:0 "Pomeranian"
+ POM_liberal:0 "Pomeranian National State"
+ POM_liberal_DEF:0 "The Pomeranian National State"
+ POM_liberal_ADJ:0 "Pomeranian"
+ POM_progressive:0 "Pomeranian National State"
+ POM_progressive_DEF:0 "The Pomeranian National State"
+ POM_progressive_ADJ:0 "Pomeranian"
+ POM_democratic_socialist:0 "Pomeranian National State"
+ POM_democratic_socialist_DEF:0 "The Pomeranian National State"
+ POM_democratic_socialist_ADJ:0 "Pomeranian"
+ POM_radical_libertarian:0 "Pomeranian National State"
+ POM_radical_libertarian_DEF:0 "The Pomeranian National State"
+ POM_radical_libertarian_ADJ:0 "Pomeranian"
+ POM_maximalist_socialist:0 "Pomeranian National State"
+ POM_maximalist_socialist_DEF:0 "The Pomeranian National State"
+ POM_maximalist_socialist_ADJ:0 "Pomeranian"
+ POM_nationalist_socialist:0 "Pomeranian National State"
+ POM_nationalist_socialist_DEF:0 "The Pomeranian National State"
+ POM_nationalist_socialist_ADJ:0 "Pomeranian"
+ POM_directoralism:0 "Pomeranian National State"
+ POM_directoralism_DEF:0 "The Pomeranian National State"
+ POM_directoralism_ADJ:0 "Pomeranian"
+ 
+ ###Parties
+ 
+ POM_national_syndicalist_party:0 "DSVP"
+ POM_national_syndicalist_party_long:0 "Deutsche Soziale Volkspartei - German Social People's Party"
+ 
+ ##########Leader Descs
+ POLITICS_FRANZ_SCHWEDE_DESC:0 "Franz Schwede was born in the small town of Drawöhnen on March 5th, 1888. He rose to prominence initially during the Interwar period between the two World Wars where he ranted and rallied against the German governments lack of action against corruption and influence, while popular he never came close to power during this time. During the second war, Schwede volunteered in the Heer where he was shot in the shoulder and was a POW for the later portion of the war and released not long following the end of the war. After the Second World War, Schwede would enter politics once again in the newly formed Pomeranian Republic following the dissolution of Germany where he rose to prominence once again and this time with much more promise. In 1950 Herr Schwede was elected to the office of President of the Republic which was the highest position within the country and immediately took to pushing his Anti-Semitic, Ultra-nationalist, totalitarian agenda through reforms along with building a strong cult of personality.\n\nNow in 1961 he has lead the nation for almost eleven years, in 1960 he officially declared that all post-war treaties would be void for the new Pomeranian National State and he would begin to rebuild the National Heer. Following these declarations, many powers including that of France, Britain, and even neighboring German states threatened the state but those threats were just that and the country continues with its peace but only for now. Herr Schwede shows no signs of ill health and continues to lead with the same charisma and fury since he initially came to power in 1950."

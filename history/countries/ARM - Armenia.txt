@@ -1,0 +1,78 @@
+﻿capital = 344 #Yerevan, Armenia
+
+set_research_slots = 2
+
+add_ideas = {
+	limited_conscription
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		basic_torpedo = 1
+		coastal_defense_ships = 1
+		mtg_transport = 1
+	}
+}
+
+set_politics = {
+	ruling_party = democratic_socialist
+	last_election = "1969.10.14"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	directoralism = 8
+	nationalist_socialist = 2
+	maximalist_socialist = 6
+	radical_libertarian = 5
+	democratic_socialist = 40
+	progressive = 7
+	liberal = 1
+	social_conservative = 11
+	national_conservative = 1
+	national_syndicalist = 5
+	national_autocracy = 14
+}
+
+create_country_leader = {
+	name = "Simon Vratsian"
+	desc = "POLITICS_SIMON_VRATSIAN_DESC"
+	picture = "Simon_Vratsian.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialist_ideology
+	traits = {
+		#
+	}
+}

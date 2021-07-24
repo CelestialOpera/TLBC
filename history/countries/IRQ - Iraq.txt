@@ -1,0 +1,73 @@
+﻿capital = 291
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		early_light_cruiser = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		mtg_transport = 1
+	}
+}
+
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1969.10.14"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	directoralism = 8
+	nationalist_socialist = 20
+	maximalist_socialist = 1
+	radical_libertarian = 3
+	democratic_socialist = 10
+	progressive = 9
+	liberal = 4
+	social_conservative = 21
+	national_conservative = 7
+	national_syndicalist = 8
+	national_autocracy = 9
+}
+
+create_country_leader = {
+	name = "King Faisal Al-Hashemi"
+	desc = "POLITICS_KING_FAISAL_BIN_AL_HUSSEIN_DESC"
+	picture = "King_Faisal_bin_Al_Hussein.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_ideology
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=813
+	name="STATE_813"
+
+	history={
+		owner = GAL
+		add_core_of = GAL
+		buildings = {
+			infrastructure = 5
+		}
+		
+		victory_points = {
+			442 15 
+		}
+
+	}
+
+	provinces={
+		442 466 3410 3434 6499 6522 9494 11507
+	}
+	manpower=1846400
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=814
+	name="STATE_814"
+
+	history={
+		owner = POM
+		add_core_of = POM
+		buildings = {
+			infrastructure = 5
+		}
+		
+		victory_points = {
+			6282 15 
+		}
+
+	}
+
+	provinces={
+		537 6282 6334 6390
+	}
+	manpower=546400
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

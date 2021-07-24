@@ -1,0 +1,94 @@
+bookmarks = {
+	bookmark = {
+		name = "LAST_BELLS_NAME"
+		desc = "LAST_BELLS_DESC"
+		date = 1961.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "ENG"
+		default = yes
+		
+		"JAP"={
+			history = "SPR_LAST_BELLS_DESC"
+			ideology = progressive
+			ideas = {
+			
+			}
+			focuses = {
+				
+			}
+		}
+		"ITA"={
+			history = "ITA_LAST_BELLS_DESC"
+			ideology = progressive
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"CHI"={
+			history = "CHI_LAST_BELLS_DESC"
+			ideology = nationalist_socialist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"ENG"={
+			history = "ENG_LAST_BELLS_DESC"
+			ideology = democratic_socialist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"USA"={
+			history = "USA_LAST_BELLS_DESC"
+			ideology = liberal
+			ideas = {
+				
+			}	
+			focuses = {
+				
+			}		
+		}
+		"FRA"={
+			history = "FRA_LAST_BELLS_DESC"
+			ideology = national_conservative
+			ideas = {
+				
+			}	
+			focuses = {
+				
+			}			
+		}
+		"RUS"={
+			history = "RUS_LAST_BELLS_DESC"
+			ideology = national_autocracy
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}	
+		}
+
+		"---"={
+			history = "OTHER_LAST_BELLS_DESC"
+		}
+
+
+		# minors from DLC ####
+		
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

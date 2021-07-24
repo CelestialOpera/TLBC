@@ -1,0 +1,60 @@
+﻿capital = 439
+
+set_stability = 0.6
+set_war_support = 0.1
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	transport = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	CAS1 = 1
+	early_fighter = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Battle for the Bosporus"
+	}
+	set_technology = { camelry = 1 }
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = democratic_socialist
+	last_election = "1969.10.14"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	directoralism = 2
+	nationalist_socialist = 11
+	maximalist_socialist = 7
+	radical_libertarian = 1
+	democratic_socialist = 23
+	progressive = 4
+	liberal = 8
+	social_conservative = 9
+	national_conservative = 20
+	national_syndicalist = 9
+	national_autocracy = 6
+}
+
+create_country_leader = {
+	name = "Jawaharlal Nehru"
+	desc = "POLITICS_JAWAHARLAL_NEHRU_DESC"
+	picture = "Jawaharlal_Nehru.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialist_ideology
+	traits = {
+		#
+	}
+}

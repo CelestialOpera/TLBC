@@ -1,0 +1,194 @@
+focus_tree = {
+	id = usa_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	
+	continuous_focus_position = { x = 0 y = 10000 }
+	
+	
+	focus = {
+		id = USA_thurmonds_inaugaration
+		#icon = 
+		x = 7
+		y = 0
+
+		cost = 0
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = THURMOND_INAUGERATED
+		}
+		bypass = {
+			has_country_flag = THURMOND_INAUGERATED
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+	
+	focus = {
+		id = USA_crackdown_on_birminghamd_protests
+		#icon = 
+		x = -2
+		y = 1
+		relative_position_id = USA_thurmonds_inaugaration
+
+		cost = 5
+
+		prerequisite = { focus = USA_thurmonds_inaugaration }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = THURMOND_INAUGERATED
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+	
+	focus = {
+		id = USA_pass_the_business_owners_rights_act
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = USA_thurmonds_inaugaration
+
+		cost = 5
+
+		prerequisite = { focus = USA_thurmonds_inaugaration }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = THURMOND_INAUGERATED
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+	
+	focus = {
+		id = USA_circumvent_liberal_democrats
+		#icon = 
+		x = 2
+		y = 1
+		relative_position_id = USA_thurmonds_inaugaration
+
+		cost = 5
+
+		prerequisite = { focus = USA_thurmonds_inaugaration }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = THURMOND_INAUGERATED
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+	
+	focus = {
+		id = USA_declare_state_of_emergency
+		#icon = 
+		x = 0
+		y = 2
+		relative_position_id = USA_thurmonds_inaugaration
+
+		cost = 2
+
+		prerequisite = { focus = USA_crackdown_on_birminghamd_protests }
+		prerequisite = { focus = USA_pass_the_business_owners_rights_act }
+		prerequisite = { focus = USA_circumvent_liberal_democrats }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = anti_thurmond_riots
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+	
+	focus = {
+		id = USA_national_guard_in_effected_cities
+		#icon = 
+		x = -1
+		y = 3
+		relative_position_id = USA_thurmonds_inaugaration
+
+		cost = 2
+
+		prerequisite = { focus = USA_declare_state_of_emergency }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = anti_thurmond_riots
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+	
+	focus = {
+		id = USA_the_thurmond_orders
+		#icon = 
+		x = 1
+		y = 3
+		relative_position_id = USA_thurmonds_inaugaration
+
+		cost = 2
+
+		prerequisite = { focus = USA_declare_state_of_emergency }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = anti_thurmond_riots
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+
+}

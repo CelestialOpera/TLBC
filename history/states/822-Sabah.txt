@@ -1,0 +1,21 @@
+
+state={
+	id=822
+	name="STATE_822"
+
+	history={
+		owner = BOR
+		add_core_of = BOR
+		buildings = {
+			infrastructure = 4
+		}
+
+	}
+
+	provinces={
+		1306 4282 4338 7358 10143 10199 10212 10240 12171 12186 12228
+	}
+	manpower=425342
+	buildings_max_level_factor=1.000
+	state_category=town
+}

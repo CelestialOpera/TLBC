@@ -1,0 +1,25 @@
+
+state={
+	id=127
+	name="STATE_127" # Sussex
+	manpower = 1424124
+	state_category = city
+
+	history={
+		owner = ENS
+		add_core_of = ENS
+		victory_points = { 9458 15 }
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			9458 = {
+				naval_base = 3
+			}
+		}
+		
+	}
+
+	provinces={
+		507 6489 9458 11446 13070 
+	}
+}

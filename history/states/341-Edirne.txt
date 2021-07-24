@@ -1,0 +1,23 @@
+
+state= {
+	id=341
+	name="STATE_341"
+	manpower = 363947
+	resources={
+
+	}
+	
+	state_category = town
+
+	history= {
+		owner = IST
+		add_core_of = IST
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		922 3879 6895 	
+	}
+}

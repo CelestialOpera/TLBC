@@ -1,0 +1,10 @@
+scripted_gui = {
+	TLBC_topbar_countryname = {
+		window_name = "TLBC_topbar_countryname"
+		context_type = player_context
+		parent_window_token = politics_tab
+		visible = {
+			always = yes
+		}
+	}
+}
